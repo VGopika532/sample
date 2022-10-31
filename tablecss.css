@@ -1,0 +1,14 @@
+table,th,td{
+    border:5px solid black);
+    border-collapse :: collapse;
+
+}
+th,td{
+    padding:20px;
+}
+/*table{
+    background-color:gold;
+}*/
+#spl{
+    background-color: azure;
+}

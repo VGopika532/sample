@@ -1,0 +1,45 @@
+body{
+    padding:25px;
+    font:1px;
+}
+*{
+    box-sizing: border-box;
+   
+}
+.container{
+    border:5px solid purple;
+    border-radius: 1em;
+    padding: 10px;
+    display: flex;/*flex property*/
+    /*flex-direction: column;default*/
+    flex-direction:row;/*it switchto ryt to left*/
+        /*justify-content: flex-end;/* similar to row reverse but here the elemts does nt change its position*/
+     /*justify-content: center;*/
+   /*  justify-content: space-around;/*space wil be only b/w elemnts*/
+     height: 500px;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+    
+}
+
+.item{
+    width:500px;
+    /*height: 1000px;*/
+    padding: 10px;
+    background-color:powderblue;
+    border-width: 2px solip purple;
+    border: 1x solid purple;
+   }
+/*#st{
+
+    font-size: 2em;
+}
+#st1{
+    font-size: 4em;
+}
+#st2{
+    font-size: 8em;
+}#st3{
+    font-size: 10em;
+}*/
